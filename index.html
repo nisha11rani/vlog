@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preview.html">Preview</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="add-post">
+            <h2>Add a New Blog Post</h2>
+            <form id="blogForm">
+                <input type="text" id="title" placeholder="Blog Post Title" required>
+                <textarea id="content" placeholder="Write your blog post here..." required></textarea>
+                <button type="submit">Add Post</button>
+            </form>
+        </section>
+
+        <section class="blog-posts" id="blogPosts">
+            <h2>Recent Blog Posts</h2>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
